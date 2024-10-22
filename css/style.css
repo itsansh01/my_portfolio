@@ -1,0 +1,156 @@
+body{
+    font-family: 'Sora';
+}
+#head{
+    /* height: 790px; */
+    background: linear-gradient(
+       -45deg, #281643,#09030d
+    );
+}
+#navbarSupportedContent>ul>li>a:hover{
+    color: #793bf5 !important;
+}
+
+#hire{
+    border-radius: 30px;
+    background: linear-gradient(
+       50deg, #7B48E1,#2F175D
+    );
+    border: none;
+    padding: 10px 20px;
+}
+#hire:hover{
+    background: linear-gradient(
+       50deg, #2F175D, #7B48E1
+    );
+    color: white !important;
+}
+#web{
+    font-size: 380%;
+    font-weight: bold;
+    background: -webkit-linear-gradient(15deg, #8852F7, #CEB7FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Sora;
+}
+#download{
+    color: #8750F7;
+    border: 1px solid #8750F7;
+    border-radius: 45px;
+}
+#download:hover{
+    color: white;
+    background-color: #7B48E1;
+}
+#profile{
+    border: 2px solid #7B48E1;
+    box-shadow: 0px 0px 25px #9a6bf8 !important;
+}
+#profile2{
+    border: 2px solid #7B48E1;
+    /* box-shadow: 0px 5px 35px #9a6bf8 !important; */
+}
+#profile2:hover{
+    /* transition: 0.5s ease; */
+    /* border: 2px solid #7B48E1; */
+    /* margin-right: 20px; */
+    box-shadow: 0px 0px 20px #9a6bf8 !important;
+}
+.home-img img{
+    /* width: 320px; */
+    border-radius: 50%;
+    animation: floatImage 2s ease-in-out infinite;
+}
+
+@keyframes floatImage {
+    0% {
+        transform:translateY(0);
+    }
+    50% {
+        transform:translateY(2.4rem);
+    }
+    100% {
+        transform:translateY(0);
+    }
+}
+#profile:hover{
+    box-shadow: none !important;
+}
+.text-justify{
+    text-align: justify;
+}
+.icon{
+    color: #7B48E1;
+    border: 1px solid #7B48E1;
+    border-radius: 100%;
+    padding: 5px 10px;
+}
+.icon:hover{
+    background-color: #7B48E1;
+    color: white;
+}
+.col-sm-6>.card:hover{
+    background-color:  #2F175D !important;
+    transition: 0.5s ease;
+    color:  !important;
+    box-shadow: 0px 0px 10px #2F175D;
+}
+.skill{
+    text-align: center;
+    font-size: 280%;
+    font-weight: bold;
+    background: -webkit-linear-gradient(15deg, #793bf5, #9a6bf8, #CEB7FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Sora;
+}
+.education{
+    /* text-align: center; */
+    font-size: 180%;
+    font-weight: bold;
+    background: -webkit-linear-gradient(15deg, #793bf5, #9a6bf8, #CEB7FC);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Sora;
+}
+.skillicon{
+    font-size: 85px;
+
+}
+.col-sm-2>.card:hover{
+    color: black !important;
+    /* border: 1px solid #7B48E1; */
+    box-shadow: 0px 0px 15px #793bf5;
+    background-color: #8852F7 !important;
+}
+.row>.col-sm-4>.card:hover{
+    box-shadow: 0px 0px 10px #8750F7;
+}
+.col-sm-6>input{
+    background-color: #09030d;
+    border: none;
+    box-shadow: 0px 0px 5px #793bf5;
+}
+.col-sm-12>select,option{
+    background-color: #09030d;
+    border: none;
+    color: gray;
+    box-shadow: 0px 0px 5px #793bf5;
+}
+.col-sm-12>textarea{
+    background-color: #09030d;
+    border: none;
+    color: gray;
+    box-shadow: 0px 0px 5px #793bf5;
+}
+
+#ul li{
+    display: inline;
+    font-size: 18px;
+}
+#logo{
+    filter: drop-shadow(0px 0px 4px #7B48E1);
+}
+#logo:hover{
+    filter: none;
+}
