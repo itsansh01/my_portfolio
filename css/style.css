@@ -79,6 +79,12 @@ body{
 .text-justify{
     text-align: justify;
 }
+.icon2{
+    color: #7B48E1;
+    border: 1px solid #7B48E1;
+    border-radius: 100%;
+    padding: 8px 12px;
+}
 .icon{
     color: #7B48E1;
     border: 1px solid #7B48E1;
