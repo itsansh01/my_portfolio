@@ -92,7 +92,7 @@ body{
 .col-sm-6>.card:hover{
     background-color:  #2F175D !important;
     transition: 0.5s ease;
-    color:  !important;
+    /* color:  !important; */
     box-shadow: 0px 0px 10px #2F175D;
 }
 .skill{
