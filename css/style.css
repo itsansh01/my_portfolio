@@ -134,8 +134,8 @@ body{
     box-shadow: 0px 0px 15px #793bf5;
     background-color: #8852F7 !important;
 }
-.row>.col-sm-4>.card:hover{
-    box-shadow: 0px 0px 10px #8750F7;
+.row>.col-sm-4>a>.card:hover{
+    box-shadow: 0px 0px 10px #8750F7 !important;
 }
 .col-sm-6>input{
     background-color: #09030d;
